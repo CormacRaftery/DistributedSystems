@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;G00348802ProjectPart1&apos;&#x0D;&#x0A;- Original project: &apos;G00348802ProjectPart1&apos;&#x0D;&#x0A;- Original element: &apos;G00348802ProjectPart1/target/generated-sources/protobuf/java.ie.gmit.ds&apos;" description="Delete element" element1="/target\/generated-sources\/protobuf&lt;java.ie.gmit.ds" element2="/target\/generated-sources\/protobuf&lt;java.ie.gmit" element3="/target\/generated-sources\/protobuf&lt;java.ie" element4="/target\/generated-sources\/protobuf&lt;java" elements="4" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1572816182147" subPackages="false" version="1.0"/>
+</session>

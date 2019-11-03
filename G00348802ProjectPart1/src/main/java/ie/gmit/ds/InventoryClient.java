@@ -79,6 +79,7 @@ public class InventoryClient {
 		} catch (StatusRuntimeException ex) {
 			logger.log(Level.WARNING, "Failed:{0}", ex.getStatus());
 			// return
+			
 		}
 	}
 
