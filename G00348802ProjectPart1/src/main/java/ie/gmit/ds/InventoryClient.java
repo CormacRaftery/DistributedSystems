@@ -3,90 +3,62 @@ package ie.gmit.ds;
 import java.util.concurrent.TimeUnit;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
-import com.google.protobuf.BoolValue;
-import com.google.protobuf.Empty;
+import java.util.Scanner;
 
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
-import io.grpc.Status;
 import io.grpc.StatusRuntimeException;
-import io.grpc.stub.StreamObserver;
 
 public class InventoryClient {
 
 	private static final Logger logger = Logger.getLogger(InventoryClient.class.getName());
 	private final ManagedChannel channel;
-	private final InventoryServiceGrpc.InventoryServiceStub asyncInventoryService;
+	//private final InventoryServiceGrpc.InventoryServiceStub asyncInventoryService;
 	private final InventoryServiceGrpc.InventoryServiceBlockingStub syncInventoryService;
 
 	public static void main(String[] args) throws Exception {
+		int userId=1;
+		String userPassword="1";
+		Scanner in = new Scanner(System.in);
+		System.out.println("Please enter usedId(int):");
+		userId = in.nextInt();
+        System.out.println("Please enter userPassword(String):");
+        in.nextLine();
+        userPassword = in.nextLine();
 		InventoryClient client = new InventoryClient("localhost", 50551);
-		Item newItem = Item.newBuilder().setId("1234").setName("Cormac Raftery").setDescription("Best New Item").build();
 		try {
-			client.addNewInventoryItem(newItem);
-			client.getItems();
-		} finally {
+			client.hashPassword(userId,userPassword);
+
+		} finally
+
+		{
 			// Don't stop process, keep alive to receive async response
 			Thread.currentThread().join();
 		}
+
 	}
 
 	public InventoryClient(String host, int port) {
 		channel = ManagedChannelBuilder.forAddress(host, port).usePlaintext().build();
 		syncInventoryService = InventoryServiceGrpc.newBlockingStub(channel);
-		asyncInventoryService = InventoryServiceGrpc.newStub(channel);
+		//asyncInventoryService = InventoryServiceGrpc.newStub(channel);
 	}
 
 	public void shutdown() throws InterruptedException {
 		channel.shutdown().awaitTermination(5, TimeUnit.SECONDS);
 	}
-
-	public void addNewInventoryItem(Item newItem) {
-		logger.info("Adding new inventory item " + newItem);
-		BoolValue result = BoolValue.newBuilder().setValue(false).build();
+	public void hashPassword(int id, String password) {
+		logger.info("User ID: "+id+"\nPassword: "+password);
+		Hash newItem = Hash.newBuilder().setUserId(id).setPassword(password).build();
+		HashResponse hashItem; 
 		try {
-			result = syncInventoryService.addItem(newItem);
-		} catch (StatusRuntimeException ex) {
-			logger.log(Level.WARNING, "RPC failed: {0}", ex.getStatus());
-			return;
-		}
-		if (result.getValue()) {
-			logger.info("Successfully added item " + newItem);
-		} else {
-			logger.warning("Failed to add item");
-		}
-	}
-
-	private void getItems() {
-		StreamObserver<Items> responseObserver = new StreamObserver<Items>() {
-			@Override
-			public void onNext(Items items) {
-				logger.info("Received items: " + items);
+			hashItem = syncInventoryService.hash(newItem);
+			logger.info(hashItem.toString());
+		} catch
+			(StatusRuntimeException ex){
+				logger.log(Level.WARNING, "Failed:{0}", ex.getStatus());
+				//return
 			}
-
-			@Override
-			public void onError(Throwable throwable) {
-				Status status = Status.fromThrowable(throwable);
-
-				logger.log(Level.WARNING, "RPC Error: {0}", status);
-			}
-
-			@Override
-			public void onCompleted() {
-				logger.info("Finished receiving items");
-				// End program
-				System.exit(0);
-			}
-		};
-
-		try {
-			logger.info("Requesting all items ");
-			asyncInventoryService.getItems(Empty.newBuilder().build(), responseObserver);
-			logger.info("Returned from requesting all items ");
-		} catch (StatusRuntimeException ex) {
-			logger.log(Level.WARNING, "RPC failed: {0}", ex.getStatus());
-			return;
-		}
+	
 	}
 }

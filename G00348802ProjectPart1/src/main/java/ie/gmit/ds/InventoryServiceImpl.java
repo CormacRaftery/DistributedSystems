@@ -1,49 +1,37 @@
 package ie.gmit.ds;
 
-import java.util.ArrayList;
 import java.util.logging.Logger;
-import ie.gmit.ds.Item;
-import com.google.protobuf.BoolValue;
-import com.google.protobuf.Empty;
+import com.google.protobuf.ByteString;
 
 import io.grpc.stub.StreamObserver;
 
 public class InventoryServiceImpl extends InventoryServiceGrpc.InventoryServiceImplBase {
-
-	private ArrayList<Item> itemsList;
 	private static final Logger logger = Logger.getLogger(InventoryServiceImpl.class.getName());
 
 	public InventoryServiceImpl() {
-		itemsList = new ArrayList<>();
-		createDummyItems();
 	}
 
 	@Override
-	public void addItem(Item item, StreamObserver<BoolValue> responseObserver) {
-		try {
-			itemsList.add(item);
-			logger.info("Added new item: " + item);
-			responseObserver.onNext(BoolValue.newBuilder().setValue(true).build());
-		} catch (RuntimeException ex) {
-			responseObserver.onNext(BoolValue.newBuilder().setValue(false).build());
-		}
+	public void hash(Hash item, StreamObserver<HashResponse> responseObserver) {
+		String password = item.getPassword();
+		char[] hashString = password.toCharArray();
+		
+		byte[] addSalt = Passwords.getNextSalt();
+		
+		byte[] passwordHashed = Passwords.hash(hashString, addSalt);
+		
+		responseObserver.onNext(HashResponse.newBuilder().setUserId(item.getUserId()).setHashPassword(ByteString.copyFrom(passwordHashed)).setSalt(ByteString.copyFrom(addSalt)).build());
 		responseObserver.onCompleted();
 	}
 
 	@Override
-	public void getItems(Empty request, StreamObserver<Items> responseObserver) {
-		Items.Builder items = Items.newBuilder();
-		for (Item item : itemsList) {
-			items.addItems(item);
-		}
-		responseObserver.onNext(items.build());
-		responseObserver.onCompleted();
-	}
+	public void validate(Validate request, StreamObserver responseObserver) {
+		// TODO Auto-generated method stub
+		char[] password = request.getPassword().toCharArray();
+		byte[] paswordHashed = request.getHashedPassword().toByteArray();
+		byte[] salt = request.getSalt().toByteArray();
 
-	private void createDummyItems() {
-		itemsList.add(Item.newBuilder().setName("Cormac Raftery").setId("1234").setDescription("A cool item").build());
-		itemsList.add(
-				Item.newBuilder().setName("Second Item").setId("002").setDescription("An even cooler item").build());
-		itemsList.add(Item.newBuilder().setName("Third Item").setId("003").setDescription("A crap item").build());
+		responseObserver.equals(Passwords.isExpectedPassword(password, salt, paswordHashed));
+
 	}
 }
