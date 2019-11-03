@@ -563,3 +563,13 @@
 2019-11-03 21:47:37,865 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-11-03 21:47:37,871 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\DistributedSystems\G00348802ProjectPart1\src\main\resources
 2019-11-03 21:47:37,878 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-03 21:47:37,879 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-03 21:47:37,886 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-03 21:47:37,886 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\DistributedSystems\G00348802ProjectPart1\src\test\resources
+2019-11-03 21:48:55,379 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-03 21:48:55,382 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-03 21:48:55,383 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-03 21:48:55,384 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\DistributedSystems\G00348802ProjectPart1\src\main\resources
+2019-11-03 21:48:55,385 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-03 21:48:55,386 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-03 21:48:55,396 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.

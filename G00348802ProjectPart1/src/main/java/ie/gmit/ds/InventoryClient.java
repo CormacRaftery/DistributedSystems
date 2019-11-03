@@ -92,6 +92,7 @@ public class InventoryClient {
 				if (value.getValue()) {
 					System.out.println("Auth Successful");
 				} else {
+					
 					System.out.println("Username or Password is incorrect");
 				}
 			}
