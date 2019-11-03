@@ -3,32 +3,43 @@ package ie.gmit.ds;
 import java.util.concurrent.TimeUnit;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
+import com.google.protobuf.BoolValue;
+import com.google.protobuf.ByteString;
+
+import ie.gmit.ds.InventoryServiceGrpc.InventoryServiceBlockingStub;
+
 import java.util.Scanner;
 
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
 import io.grpc.StatusRuntimeException;
+import io.grpc.stub.StreamObserver;
 
 public class InventoryClient {
 
 	private static final Logger logger = Logger.getLogger(InventoryClient.class.getName());
 	private final ManagedChannel channel;
-	//private final InventoryServiceGrpc.InventoryServiceStub asyncInventoryService;
-	private final InventoryServiceGrpc.InventoryServiceBlockingStub syncInventoryService;
+	private final InventoryServiceBlockingStub asyncInventoryService;
+	private int userId = 1;
+	private String userPassword = "1";
+	private ByteString hashedPassword;
+	private ByteString salt;
+	Scanner in = new Scanner(System.in);
+
+	public void getUserInput() {
+		System.out.println("Enter ID:");
+		userId = in.nextInt();
+		System.out.println("Enter Password:");
+		userPassword = in.next();
+	}
 
 	public static void main(String[] args) throws Exception {
-		int userId=1;
-		String userPassword="1";
-		Scanner in = new Scanner(System.in);
-		System.out.println("Please enter usedId(int):");
-		userId = in.nextInt();
-        System.out.println("Please enter userPassword(String):");
-        in.nextLine();
-        userPassword = in.nextLine();
 		InventoryClient client = new InventoryClient("localhost", 50551);
+		client.getUserInput();
 		try {
-			client.hashPassword(userId,userPassword);
-
+			client.hashPassword(client.userId, client.userPassword);
+			client.validatePassword();
 		} finally
 
 		{
@@ -40,25 +51,67 @@ public class InventoryClient {
 
 	public InventoryClient(String host, int port) {
 		channel = ManagedChannelBuilder.forAddress(host, port).usePlaintext().build();
-		syncInventoryService = InventoryServiceGrpc.newBlockingStub(channel);
-		//asyncInventoryService = InventoryServiceGrpc.newStub(channel);
+		asyncInventoryService = InventoryServiceGrpc.newBlockingStub(channel);
 	}
 
 	public void shutdown() throws InterruptedException {
 		channel.shutdown().awaitTermination(5, TimeUnit.SECONDS);
 	}
+
 	public void hashPassword(int id, String password) {
-		logger.info("User ID: "+id+"\nPassword: "+password);
+		logger.info("User ID: " + id + "\nPassword: " + password);
 		Hash newItem = Hash.newBuilder().setUserId(id).setPassword(password).build();
-		HashResponse hashItem; 
+		HashResponse hashItem;
 		try {
-			hashItem = syncInventoryService.hash(newItem);
+			hashItem = asyncInventoryService.hash(newItem);
 			logger.info(hashItem.toString());
-		} catch
-			(StatusRuntimeException ex){
-				logger.log(Level.WARNING, "Failed:{0}", ex.getStatus());
-				//return
+			Validate newValidate = Validate.newBuilder().setHashedPassword(hashItem.getHashPassword())
+					.setPassword(password).setSalt(hashItem.getSalt()).build();
+			BoolValue sameHash;
+			// logger.info("hashhhhhhhhhhhhhh21");
+			// sameHash = asyncInventoryService.validate(newValidate);
+			// logger.info(sameHash.toString() + "hashhhhhhhhhhhhhh");
+			// if (sameHash.getValue()) {
+			// System.out.println("Auth Successful");
+			// } else {
+			// System.out.println("Username or Password is incorrect");
+			// }
+		} catch (StatusRuntimeException ex) {
+			logger.log(Level.WARNING, "Failed:{0}", ex.getStatus());
+			// return
+		}
+	}
+
+	public void validatePassword() {
+		System.out.println("in validate pw");
+		StreamObserver<BoolValue> responseObserver = new StreamObserver<BoolValue>() {
+
+			@Override
+			public void onNext(BoolValue value) {
+				if (value.getValue()) {
+					System.out.println("Auth Successful");
+				} else {
+					System.out.println("Username or Password is incorrect");
+				}
 			}
-	
+
+			@Override
+			public void onError(Throwable t) {
+				System.out.println("An Error has occurred.. " + t.getLocalizedMessage());
+			}
+
+			@Override
+			public void onCompleted() { // TODO Auto-generated method stub
+
+			}
+		};
+		try { //
+			asyncInventoryService.validate(Validate.newBuilder().setPassword(userPassword)
+					.setHashedPassword(hashedPassword).setSalt(salt).build(),responseObserver);
+			//StreamObserver
+		} catch (StatusRuntimeException ex) {
+			logger.log(Level.WARNING, "RPC failed: {0}", ex.getStatus());
+			return;
+		}
 	}
 }

@@ -15,6 +15,10 @@ import static io.grpc.stub.ServerCalls.asyncUnaryCall;
 import static io.grpc.stub.ServerCalls.asyncUnimplementedStreamingCall;
 import static io.grpc.stub.ServerCalls.asyncUnimplementedUnaryCall;
 
+import com.google.protobuf.BoolValue;
+
+import io.grpc.stub.StreamObserver;
+
 /**
  */
 @javax.annotation.Generated(
@@ -211,8 +215,9 @@ public final class InventoryServiceGrpc {
     }
 
     /**
+     * @param responseObserver 
      */
-    public com.google.protobuf.BoolValue validate(ie.gmit.ds.Validate request) {
+    public com.google.protobuf.BoolValue validate(ie.gmit.ds.Validate request, StreamObserver<BoolValue> responseObserver) {
       return blockingUnaryCall(
           getChannel(), getValidateMethod(), getCallOptions(), request);
     }
