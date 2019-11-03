@@ -1,14 +1,11 @@
 package ie.gmit.ds;
 
-import java.util.logging.Logger;
-
 import com.google.protobuf.BoolValue;
 import com.google.protobuf.ByteString;
 
 import io.grpc.stub.StreamObserver;
 
 public class InventoryServiceImpl extends InventoryServiceGrpc.InventoryServiceImplBase {
-	private static final Logger logger = Logger.getLogger(InventoryServiceImpl.class.getName());
 
 	public InventoryServiceImpl() {
 	}
@@ -27,7 +24,7 @@ public class InventoryServiceImpl extends InventoryServiceGrpc.InventoryServiceI
 	}
 
 	@Override
-	public void validate(Validate request, StreamObserver responseObserver) {
+	public void validate(Validate request, StreamObserver<BoolValue> responseObserver) {
 		// TODO Auto-generated method stub
 		char[] password = request.getPassword().toCharArray();
 		byte[] paswordHashed = request.getHashedPassword().toByteArray();
@@ -35,14 +32,12 @@ public class InventoryServiceImpl extends InventoryServiceGrpc.InventoryServiceI
 
 		//responseObserver.equals(Passwords.isExpectedPassword(password, salt, paswordHashed));
 		// Validate the hash matches and return true
-        if(responseObserver.equals(Passwords.isExpectedPassword(password, salt, paswordHashed))){
+        if(Passwords.isExpectedPassword(password, salt, paswordHashed)){
             responseObserver.onNext(BoolValue.newBuilder().setValue(true).build());
-            System.out.println("yay");
         }
         // Else return false
         else{
             responseObserver.onNext(BoolValue.newBuilder().setValue(false).build());
-            System.out.println("nah");
         }
 	}
 }

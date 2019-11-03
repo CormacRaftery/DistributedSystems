@@ -8,6 +8,7 @@ import com.google.protobuf.BoolValue;
 import com.google.protobuf.ByteString;
 
 import ie.gmit.ds.InventoryServiceGrpc.InventoryServiceBlockingStub;
+import ie.gmit.ds.InventoryServiceGrpc.InventoryServiceStub;
 
 import java.util.Scanner;
 
@@ -20,9 +21,10 @@ public class InventoryClient {
 
 	private static final Logger logger = Logger.getLogger(InventoryClient.class.getName());
 	private final ManagedChannel channel;
-	private final InventoryServiceBlockingStub asyncInventoryService;
-	private int userId = 1;
-	private String userPassword = "1";
+	private final InventoryServiceBlockingStub syncInventoryService;
+	private final InventoryServiceStub asyncInventoryService;
+	private int userId;
+	private String userPassword;
 	private ByteString hashedPassword;
 	private ByteString salt;
 	Scanner in = new Scanner(System.in);
@@ -38,7 +40,7 @@ public class InventoryClient {
 		InventoryClient client = new InventoryClient("localhost", 50551);
 		client.getUserInput();
 		try {
-			client.hashPassword(client.userId, client.userPassword);
+			client.hashPassword();
 			client.validatePassword();
 		} finally
 
@@ -51,49 +53,38 @@ public class InventoryClient {
 
 	public InventoryClient(String host, int port) {
 		channel = ManagedChannelBuilder.forAddress(host, port).usePlaintext().build();
-		asyncInventoryService = InventoryServiceGrpc.newBlockingStub(channel);
+		syncInventoryService = InventoryServiceGrpc.newBlockingStub(channel);
+		asyncInventoryService = InventoryServiceGrpc.newStub(channel);
 	}
 
 	public void shutdown() throws InterruptedException {
 		channel.shutdown().awaitTermination(5, TimeUnit.SECONDS);
 	}
 
-	public void hashPassword(int id, String password) {
-		logger.info("User ID: " + id + "\nPassword: " + password);
-		Hash newItem = Hash.newBuilder().setUserId(id).setPassword(password).build();
+	public void hashPassword() {
+		logger.info("User ID: " + userId + "\nPassword: " + userPassword);
+		Hash newItem = Hash.newBuilder().setUserId(userId).setPassword(userPassword).build();
 		HashResponse hashItem;
 		try {
-			hashItem = asyncInventoryService.hash(newItem);
+			hashItem = syncInventoryService.hash(newItem);
+			hashedPassword=hashItem.getHashPassword();
+			salt=hashItem.getSalt();
 			logger.info(hashItem.toString());
-			Validate newValidate = Validate.newBuilder().setHashedPassword(hashItem.getHashPassword())
-					.setPassword(password).setSalt(hashItem.getSalt()).build();
-			BoolValue sameHash;
-			// logger.info("hashhhhhhhhhhhhhh21");
-			// sameHash = asyncInventoryService.validate(newValidate);
-			// logger.info(sameHash.toString() + "hashhhhhhhhhhhhhh");
-			// if (sameHash.getValue()) {
-			// System.out.println("Auth Successful");
-			// } else {
-			// System.out.println("Username or Password is incorrect");
-			// }
 		} catch (StatusRuntimeException ex) {
 			logger.log(Level.WARNING, "Failed:{0}", ex.getStatus());
 			// return
-			
 		}
 	}
 
 	public void validatePassword() {
-		System.out.println("in validate pw");
 		StreamObserver<BoolValue> responseObserver = new StreamObserver<BoolValue>() {
 
 			@Override
 			public void onNext(BoolValue value) {
 				if (value.getValue()) {
-					System.out.println("Auth Successful");
+					logger.info("Correct Values");
 				} else {
-					
-					System.out.println("Username or Password is incorrect");
+					logger.info("Username or Password is incorrect");
 				}
 			}
 
@@ -107,10 +98,11 @@ public class InventoryClient {
 
 			}
 		};
-		try { //
+		try { 
+			logger.info("requesting validation");
 			asyncInventoryService.validate(Validate.newBuilder().setPassword(userPassword)
-					.setHashedPassword(hashedPassword).setSalt(salt).build(),responseObserver);
-			//StreamObserver
+					.setHashedPassword(hashedPassword).setSalt(salt).build(), responseObserver);
+			logger.info("returning validation");
 		} catch (StatusRuntimeException ex) {
 			logger.log(Level.WARNING, "RPC failed: {0}", ex.getStatus());
 			return;
