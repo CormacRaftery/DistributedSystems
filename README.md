@@ -1,5 +1,8 @@
 # DistributedSystems
 ## Cormac Raftery G00348802
+
+Github link: https://github.com/CormacRaftery/DistributedSystems
+
 The 2 jars were made using the integrated service in intelliJ as I found the one in eclipse to be quite tedious but the main project was developed in eclipse.
 
 All the code for the main project is derived from https://github.com/john-french/distributed-systems-labs/tree/master/grpc-async-inventory.
