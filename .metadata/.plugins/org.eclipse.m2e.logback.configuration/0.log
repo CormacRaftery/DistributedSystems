@@ -959,3 +959,634 @@
 2019-11-03 23:27:50,509 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
 2019-11-03 23:27:50,510 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-11-03 23:27:50,520 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\DistributedSystems\G00348802ProjectPart1\src\main\resources
+2019-11-24 19:21:33,093 [Worker-2: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-11-24 19:21:35,630 [Worker-2: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ie.gmit.ds:G00348802ProjectPart1:0.0.1-SNAPSHOT @ C:\Users\c-raf\Desktop\CormacsProjects\DSProject\DistributedSystems\G00348802ProjectPart1\pom.xml.
+2019-11-24 19:21:36,965 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:21:36,966 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\DistributedSystems\G00348802ProjectPart1\src\main\resources
+2019-11-24 19:21:36,967 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:21:36,968 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\DistributedSystems\G00348802ProjectPart1\src\test\resources
+2019-11-24 19:21:50,539 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:21:50,542 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:21:50,544 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:21:50,544 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\DistributedSystems\G00348802ProjectPart1\src\main\resources
+2019-11-24 19:21:50,547 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:21:50,557 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:21:50,558 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:21:50,558 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\DistributedSystems\G00348802ProjectPart1\src\test\resources
+2019-11-24 19:21:50,829 [Worker-11: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ie.gmit.ds:G00348802ProjectPart1:0.0.1-SNAPSHOT @ C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\pom.xml.
+2019-11-24 19:21:51,459 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:21:51,464 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 19:21:51,466 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:21:51,466 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 19:21:52,741 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:21:52,748 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:21:52,755 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:21:52,761 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 19:21:52,762 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:21:52,771 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:21:52,772 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:21:52,773 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 19:22:06,707 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2019-11-24 19:22:12,559 [Worker-5: Launching G00348802ProjectPart2] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2
+2019-11-24 19:22:12,560 [Worker-5: Launching G00348802ProjectPart2] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B compile
+2019-11-24 19:22:25,678 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:22:25,681 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:22:25,688 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:22:25,688 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 19:22:25,694 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:22:25,695 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:22:25,702 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:22:25,702 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 19:22:37,589 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:22:37,592 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:22:37,598 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:22:37,598 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 19:22:37,604 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:22:37,605 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:22:37,611 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:22:37,611 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 19:23:08,908 [Worker-11: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ie.gmit.ds:G00348802ProjectPart2:0.0.1-SNAPSHOT @ C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\pom.xml.
+2019-11-24 19:23:09,524 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:23:09,533 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:23:09,534 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:23:09,540 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 19:23:09,540 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-24 19:23:09,546 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-24 19:23:09,547 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:23:09,547 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 19:23:11,257 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:23:11,266 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:23:11,267 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:23:11,272 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 19:23:11,273 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:23:11,282 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:23:11,285 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:23:11,285 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 19:24:09,292 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:24:09,300 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:24:09,301 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:24:09,308 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 19:24:09,308 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:24:09,315 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:24:09,316 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:24:09,316 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 19:24:19,347 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:24:19,355 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:24:19,356 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:24:19,361 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 19:24:19,362 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:24:19,368 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:24:19,368 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:24:19,369 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 19:28:20,485 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:28:20,492 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:28:20,493 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:28:20,498 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 19:28:20,499 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:28:20,504 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:28:20,505 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:28:20,505 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 19:28:44,960 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:28:44,967 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:28:44,968 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:28:44,972 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 19:28:44,973 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:28:44,977 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:28:44,978 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:28:44,978 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 19:28:59,117 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:28:59,124 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:28:59,124 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:28:59,129 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 19:28:59,129 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:28:59,135 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:28:59,136 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:28:59,136 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 19:29:42,409 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:29:42,416 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:29:42,417 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:29:42,422 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 19:29:42,422 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:29:42,427 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:29:42,428 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:29:42,428 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 19:30:37,973 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:30:37,979 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:30:37,980 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:30:37,985 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 19:30:37,985 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:30:37,991 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:30:37,991 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:30:37,992 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 19:36:58,488 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:36:58,496 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:36:58,497 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:36:58,503 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 19:36:58,503 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:36:58,509 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:36:58,511 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:36:58,511 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 19:37:10,184 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:37:10,191 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:37:10,192 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:37:10,197 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 19:37:10,197 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:37:10,202 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:37:10,203 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:37:10,204 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 19:39:53,426 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:39:53,433 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:39:53,433 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:39:53,438 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 19:39:53,439 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:39:53,444 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:39:53,444 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:39:53,445 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 19:40:49,554 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:40:49,561 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:40:49,562 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:40:49,567 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 19:40:49,567 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:40:49,572 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:40:49,573 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:40:49,573 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 19:42:08,488 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:42:08,495 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:42:08,496 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:42:08,501 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 19:42:08,501 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:42:08,506 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:42:08,507 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:42:08,507 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 19:42:14,276 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:42:14,283 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:42:14,283 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:42:14,288 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 19:42:14,289 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:42:14,294 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:42:14,294 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:42:14,295 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 19:42:20,855 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:42:20,861 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:42:20,862 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:42:20,867 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 19:42:20,867 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:42:20,872 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:42:20,872 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:42:20,872 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 19:45:36,947 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:45:36,954 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:45:36,955 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:45:36,960 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 19:45:36,960 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:45:36,966 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:45:36,967 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:45:36,967 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 19:46:00,693 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:46:00,700 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:46:00,701 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:46:00,705 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 19:46:00,706 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:46:00,710 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:46:00,711 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:46:00,711 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 19:46:37,936 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:46:37,943 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:46:37,944 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:46:37,949 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 19:46:37,950 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:46:37,955 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:46:37,956 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:46:37,956 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 19:46:53,423 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:46:53,430 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:46:53,430 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:46:53,435 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 19:46:53,436 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:46:53,441 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:46:53,442 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:46:53,442 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 19:47:33,061 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:47:33,068 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:47:33,068 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:47:33,072 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 19:47:33,073 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:47:33,078 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:47:33,079 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:47:33,080 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 19:47:38,187 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:47:38,196 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:47:38,196 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:47:38,200 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 19:47:38,201 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:47:38,206 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:47:38,206 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:47:38,206 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 19:47:46,267 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:47:46,273 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:47:46,274 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:47:46,278 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 19:47:46,278 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:47:46,284 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:47:46,285 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:47:46,285 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 19:54:17,100 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:54:17,106 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:54:17,107 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:54:17,112 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 19:54:17,112 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:54:17,117 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:54:17,118 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:54:17,118 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 19:54:32,363 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:54:32,370 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 19:54:32,371 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:54:32,375 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 19:54:32,376 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:54:32,381 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 19:54:32,382 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 19:54:32,382 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 20:15:58,232 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2019-11-24 20:16:09,305 [Worker-27: Launching G00348802ProjectPart1 (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\c-raf\Desktop\CormacsProjects\DSProject\DistributedSystems\G00348802ProjectPart1
+2019-11-24 20:16:09,305 [Worker-27: Launching G00348802ProjectPart1 (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B compile
+2019-11-24 20:16:09,845 [Worker-24: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ie.gmit.ds:G00348802ProjectPart2:0.0.1-SNAPSHOT @ C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\pom.xml.
+2019-11-24 20:16:14,404 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 20:16:14,416 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 20:16:14,424 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 20:16:14,434 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 20:16:14,434 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-24 20:16:14,441 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-24 20:16:14,442 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 20:16:14,443 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 20:16:26,224 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 20:16:26,226 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 20:16:26,227 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 20:16:26,227 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\DistributedSystems\G00348802ProjectPart1\src\main\resources
+2019-11-24 20:16:26,227 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 20:16:26,233 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 20:16:26,234 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 20:16:26,239 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\DistributedSystems\G00348802ProjectPart1\src\test\resources
+2019-11-24 20:18:32,232 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 20:18:32,239 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 20:18:32,245 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 20:18:32,250 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\DistributedSystems\G00348802ProjectPart1\src\main\resources
+2019-11-24 20:18:32,251 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 20:18:32,256 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 20:18:32,257 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 20:18:32,257 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\DistributedSystems\G00348802ProjectPart1\src\test\resources
+2019-11-24 21:08:27,391 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 21:08:27,393 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 21:08:27,393 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 21:08:27,393 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 21:08:27,394 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 21:08:27,401 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 21:08:27,401 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 21:08:27,406 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 21:08:37,403 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 21:08:37,410 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 21:08:37,416 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 21:08:37,420 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 21:08:37,421 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 21:08:37,425 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 21:08:37,426 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 21:08:37,426 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 21:09:16,642 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 21:09:16,644 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 21:09:16,645 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 21:09:16,645 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 21:09:16,645 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 21:09:16,651 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 21:09:16,651 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 21:09:16,655 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 21:12:17,550 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 21:12:17,558 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 21:12:17,563 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 21:12:17,568 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 21:12:17,568 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 21:12:17,574 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 21:12:17,574 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 21:12:17,574 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 21:12:55,491 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 21:12:55,493 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 21:12:55,493 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 21:12:55,493 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 21:12:55,494 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 21:12:55,500 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 21:12:55,500 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 21:12:55,505 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 21:36:17,854 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 21:36:17,856 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 21:36:17,863 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 21:36:17,868 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 21:36:17,868 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 21:36:17,873 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 21:36:17,874 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 21:36:17,874 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 21:36:23,911 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 21:36:23,915 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 21:36:23,916 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 21:36:23,916 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 21:36:23,917 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 21:36:23,925 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 21:36:23,926 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 21:36:23,930 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 21:38:52,167 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 21:38:52,177 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 21:38:52,183 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 21:38:52,187 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 21:38:52,187 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-24 21:38:52,191 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-24 21:38:52,192 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 21:38:52,192 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 21:40:04,146 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 21:40:04,148 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 21:40:04,149 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 21:40:04,149 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 21:40:04,149 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-24 21:40:04,154 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-24 21:40:04,155 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 21:40:04,160 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 21:40:21,607 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 21:40:21,617 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 21:40:21,622 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 21:40:21,627 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 21:40:21,627 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-24 21:40:21,631 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-24 21:40:21,631 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 21:40:21,631 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 21:42:22,756 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 21:42:22,758 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 21:42:22,758 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 21:42:22,758 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 21:42:22,759 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 21:42:22,764 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 21:42:22,765 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 21:42:22,769 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 21:43:29,271 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 21:43:29,278 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 21:43:29,283 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 21:43:29,287 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 21:43:29,287 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 21:43:29,292 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 21:43:29,293 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 21:43:29,293 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 21:44:00,696 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2019-11-24 21:44:04,439 [Worker-40: Launching G00348802ProjectPart2 (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2
+2019-11-24 21:44:04,439 [Worker-40: Launching G00348802ProjectPart2 (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B compile
+2019-11-24 21:44:28,884 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 21:44:28,886 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 21:44:28,893 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 21:44:28,893 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 21:44:28,898 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 21:44:28,899 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 21:44:28,904 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 21:44:28,904 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 21:44:48,074 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 21:44:48,076 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 21:44:48,083 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 21:44:48,083 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 21:44:48,089 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 21:44:48,090 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 21:44:48,095 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 21:44:48,096 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 21:47:44,473 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 21:47:44,475 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 21:47:44,481 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 21:47:44,481 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 21:47:44,485 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 21:47:44,486 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 21:47:44,491 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 21:47:44,491 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 21:48:01,156 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 21:48:01,158 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 21:48:01,163 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 21:48:01,163 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 21:48:01,168 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 21:48:01,168 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 21:48:01,173 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 21:48:01,173 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 21:48:35,028 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 21:48:35,030 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 21:48:35,035 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 21:48:35,035 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 21:48:35,040 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 21:48:35,041 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 21:48:35,046 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 21:48:35,046 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 21:48:48,438 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 21:48:48,439 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 21:48:48,445 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 21:48:48,445 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 21:48:48,450 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 21:48:48,451 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 21:48:48,456 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 21:48:48,456 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 21:49:00,228 [Worker-39: Launching G00348802ProjectPart2 (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2
+2019-11-24 21:49:00,228 [Worker-39: Launching G00348802ProjectPart2 (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B compile
+2019-11-24 21:49:12,087 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 21:49:12,089 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 21:49:12,096 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 21:49:12,101 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 21:49:12,106 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 21:49:12,107 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 21:49:12,108 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 21:49:12,108 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 21:49:17,051 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 21:49:17,052 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 21:49:17,053 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 21:49:17,053 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 21:49:17,053 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 21:49:17,054 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 21:49:17,055 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 21:49:17,055 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 21:50:37,120 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 21:50:37,122 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 21:50:37,128 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 21:50:37,133 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 21:50:37,137 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-24 21:50:37,137 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-24 21:50:37,138 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 21:50:37,138 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 21:50:49,733 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 21:50:49,736 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 21:50:49,737 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 21:50:49,737 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 21:50:49,738 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-24 21:50:49,738 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-24 21:50:49,738 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 21:50:49,738 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 22:00:07,535 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 22:00:07,537 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 22:00:07,542 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 22:00:07,547 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 22:00:07,552 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 22:00:07,552 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 22:00:07,553 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 22:00:07,553 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 22:12:33,874 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 22:12:33,876 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 22:12:33,877 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 22:12:33,877 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 22:12:33,877 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 22:12:33,878 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 22:12:33,878 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 22:12:33,879 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 22:12:46,070 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 22:12:46,073 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 22:12:46,079 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 22:12:46,083 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 22:12:46,088 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 22:12:46,089 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 22:12:46,089 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 22:12:46,090 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 22:13:04,008 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 22:13:04,009 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 22:13:04,010 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 22:13:04,010 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 22:13:04,010 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 22:13:04,011 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 22:13:04,011 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 22:13:04,011 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 22:13:23,828 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 22:13:23,830 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 22:13:23,836 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 22:13:23,841 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 22:13:23,846 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 22:13:23,847 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 22:13:23,848 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 22:13:23,848 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 22:13:38,826 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 22:13:38,828 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 22:13:38,828 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 22:13:38,828 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 22:13:38,829 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 22:13:38,829 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 22:13:38,830 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 22:13:38,830 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 22:13:57,783 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 22:13:57,784 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 22:13:57,794 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 22:13:57,798 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 22:13:57,803 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 22:13:57,803 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 22:13:57,804 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 22:13:57,804 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 22:14:01,686 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 22:14:01,688 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 22:14:01,689 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 22:14:01,689 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 22:14:01,689 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 22:14:01,690 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 22:14:01,690 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 22:14:01,690 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 22:15:46,699 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 22:15:46,701 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 22:15:46,707 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 22:15:46,712 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 22:15:46,717 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 22:15:46,717 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 22:15:46,718 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 22:15:46,718 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 22:19:21,935 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 22:19:21,937 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 22:19:21,938 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 22:19:21,938 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 22:19:21,938 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 22:19:21,939 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 22:19:21,940 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 22:19:21,940 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 22:21:09,703 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 22:21:09,705 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 22:21:09,711 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 22:21:09,715 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 22:21:09,720 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 22:21:09,721 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 22:21:09,721 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 22:21:09,722 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 22:21:35,241 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 22:21:35,245 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 22:21:35,246 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 22:21:35,246 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 22:21:35,247 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 22:21:35,247 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 22:21:35,248 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 22:21:35,248 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 22:21:39,529 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 22:21:39,530 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 22:21:39,536 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 22:21:39,541 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 22:21:39,546 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 22:21:39,546 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 22:21:39,547 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 22:21:39,547 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 22:22:21,310 [Worker-47: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ie.gmit.ds:G00348802ProjectPart2:0.0.1-SNAPSHOT @ C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\pom.xml.
+2019-11-24 22:22:21,796 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 22:22:21,798 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 22:22:21,798 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 22:22:21,798 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 22:22:21,799 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-24 22:22:21,799 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-24 22:22:21,799 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 22:22:21,804 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 22:22:48,199 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 22:22:48,206 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 22:22:48,211 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 22:22:48,215 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 22:22:48,215 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 22:22:48,216 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 22:22:48,216 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 22:22:48,221 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 22:23:05,512 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 22:23:05,514 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 22:23:05,514 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 22:23:05,514 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 22:23:05,515 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 22:23:05,515 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 22:23:05,516 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 22:23:05,521 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 22:23:45,037 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 22:23:45,044 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 22:23:45,051 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 22:23:45,056 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 22:23:45,057 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 22:23:45,057 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 22:23:45,058 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 22:23:45,063 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 22:24:19,714 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 22:24:19,717 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 22:24:19,718 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 22:24:19,718 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 22:24:19,719 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 22:24:19,720 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 22:24:19,721 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 22:24:19,726 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 22:27:04,949 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 22:27:04,956 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 22:27:04,960 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 22:27:04,965 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 22:27:04,965 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 22:27:04,966 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 22:27:04,966 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 22:27:04,971 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 22:27:07,754 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 22:27:07,756 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 22:27:07,756 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 22:27:07,756 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 22:27:07,757 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 22:27:07,757 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 22:27:07,758 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 22:27:07,763 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 22:27:10,439 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 22:27:10,445 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 22:27:10,451 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 22:27:10,455 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 22:27:10,456 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 22:27:10,456 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 22:27:10,457 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 22:27:10,461 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\test\resources
+2019-11-24 22:29:05,539 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 22:29:05,541 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipping compilation because build context has no changes.
+2019-11-24 22:29:05,542 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-24 22:29:05,542 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\c-raf\Desktop\CormacsProjects\DSProject\Part2Attempt2\Distributedsystems\G00348802ProjectPart2\src\main\resources
+2019-11-24 22:29:05,542 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-24 22:29:05,542 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
